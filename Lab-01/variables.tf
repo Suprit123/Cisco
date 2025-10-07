@@ -1,7 +1,6 @@
 variable "username" {
   description = "router username"
   type        = string
-  sensitive   = true
 }
 
 variable "password" {
@@ -13,7 +12,7 @@ variable "password" {
 variable "url" {
   description = "usrl to connect to router"
   type        = string
-  default     = "https://10.255.1.100"
+  default     = "https://172.16.166.133"
 }
 
 variable "insecure" {
